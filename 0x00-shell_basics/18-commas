@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -m
+ls -m echo alias l=\"ls -Alhp --group-directories-first\"

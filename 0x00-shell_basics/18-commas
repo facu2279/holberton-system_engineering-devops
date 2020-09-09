@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -m -F
+ls -Alph -m -a

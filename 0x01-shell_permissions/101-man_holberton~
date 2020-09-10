@@ -1,15 +1,17 @@
-.TH man 8 "06 May 2010" "1.0" "nuseradd man page"
+.TH man 2 "10 December 1945" "0.32" "eniac man page"
 .SH NAME
-nuseradd \- create a new LDAP user 
+.B eniac
+- the first electronic general-purpose digital computer. 
 .SH SYNOPSIS
-nuseradd [USERNAME]
+eniac
 .SH DESCRIPTION
-nuseradd is high level shell program for adding users to LDAP server.  On Debian, administrators should usually use nuseradd.debian(8) instead.
+Eniac was Turing-complete, and able to solve "a large class of numerical problems" through reprogramming.
 .SH OPTIONS
-The nuseradd does not take any options. However, you can supply username.
+.B eniac
+does not take any options.
 .SH SEE ALSO
-useradd(8), passwd(5), nuseradd.debian(8) 
+ENIAC could be programmed to perform complex sequences of opreations(2), including loops(2), branches(2), and subroutines(2).
 .SH BUGS
 No known bugs.
 .SH AUTHOR
-Vivek Gite (vivek@nixcraft.net.in)
+University of Penssylvania.

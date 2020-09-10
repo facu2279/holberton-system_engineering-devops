@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo chmod betty holberton *
+sudo chmod betty:holberton 

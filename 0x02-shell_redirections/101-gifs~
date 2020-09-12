@@ -1,2 +1,2 @@
 #!/bin/bash
-ls --sort=size -la | find . -name "*.gif" -type f | rev | cut -c 5- | rev | cut -d/ -f2
+find . -name "*.gif" -type f | rev | cut -c 5- | rev | cut -d/ -f2

@@ -1,1 +1,3 @@
 #!/bin/bash
+WATERecho $WATER | tr [water] [01234]
+echo $STIR | tr [stir.] [01234]

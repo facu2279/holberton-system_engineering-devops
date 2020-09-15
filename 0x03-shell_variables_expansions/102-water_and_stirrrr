@@ -1,0 +1,4 @@
+#!/bin/bash
+WATER2=$(echo $WATER | tr [water] [01234] )
+STIR2=$(echo $STIR | tr [stir.] [01234] )
+echo $(($WATER2+$STIR2))

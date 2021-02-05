@@ -9,7 +9,7 @@ then
   echo "bad luck"
 elif [ "$x" -eq "7" ]
 then
-  echo "bad luck"
+  echo "good luck"
 else
   echo "Holberton School"
 fi

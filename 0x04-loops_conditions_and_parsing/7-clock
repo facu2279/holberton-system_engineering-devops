@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # displays the time for 12 hours and 59 minutes
 
-x=1
+x=0
 xx=0
 while [ $x -lt 13 ]
 do

@@ -4,10 +4,10 @@ x=0
 b=10
 while [ "$x" -lt "$b" ]
 do
-  if [ "$x" -eq "4" ]
+  if [ "$x" -eq "3" ]
 then
   echo "bad luck"
-elif [ "$x" -eq "8" ]
+elif [ "$x" -eq "7" ]
 then
   echo "bad luck"
 else

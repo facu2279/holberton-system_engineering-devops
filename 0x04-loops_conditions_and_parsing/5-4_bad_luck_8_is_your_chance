@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# This script is displaying "Holberton School" except in line 4 and 8
+x=0
+b=10
+while [ "$x" -lt "$b" ]
+do
+  if [ "$x" -eq "4" ]
+then
+  echo "bad luck"
+elif [ "$x" -eq "8" ]
+then
+  echo "bad luck"
+else
+  echo "Holberton School"
+fi
+  x=$(( x + 1 ))
+done

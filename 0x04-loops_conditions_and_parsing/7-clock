@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+
+# Made by Facundo Diaz to Holberton School
+
 # displays the time for 12 hours and 59 minutes
 
 x=0

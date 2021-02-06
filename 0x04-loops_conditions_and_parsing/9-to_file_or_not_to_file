@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
-# gives you information about the holbertonschool file
+
+# Made by Facundo Diaz to Holberton School
+
+# Gives you information about the holbertonschool file
 
 file=./holbertonschool
 if [ -e "$file" ]

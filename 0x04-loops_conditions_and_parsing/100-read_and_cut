@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
-
-# Made by Facundo Diaz to Holberton School
-
-# This script that displays the content of the file /etc/passwd
+# Read and Cut
 
 while read line
 do

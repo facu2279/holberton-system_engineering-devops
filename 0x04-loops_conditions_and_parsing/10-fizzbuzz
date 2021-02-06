@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+# Made by Facundo Diaz to Holberton School
+
+# FizzBuzz
+
+for i in {1..100}
+do
+    if  ! (( i % 3 )) && ! (( i % 5))
+    then
+        echo "FizzBuzz"
+    elif ! (( i % 5 ))
+    then
+        echo "Buzz"
+    elif ! (( i % 3 ))
+    then
+        echo "Fizz"
+    else
+        echo "$i"
+    fi
+done

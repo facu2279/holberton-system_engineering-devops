@@ -1,7 +1,4 @@
 #!/usr/bin/env bash
-
-# Made by Facundo Diaz to Holberton School
-
 # This script is displaying "Holberton School" except in line 4 and 8
 x=0
 b=10

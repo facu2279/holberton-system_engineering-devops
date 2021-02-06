@@ -1,7 +1,4 @@
 #!/usr/bin/env bash
-
-# Made by Facundo Diaz to Holberton School
-
 # Gives you information about the holbertonschool file
 
 file=./holbertonschool

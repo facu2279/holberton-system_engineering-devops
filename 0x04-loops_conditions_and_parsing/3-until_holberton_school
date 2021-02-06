@@ -1,7 +1,4 @@
 #!/usr/bin/env bash
-
-# Made by Facundo Diaz to Holberton School
-
 # This script is displaying "Holberton School" 10 times
 i=0
 b=9

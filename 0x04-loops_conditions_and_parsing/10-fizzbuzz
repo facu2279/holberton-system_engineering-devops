@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # fizzbuzz
 
 for i in {1..100}

@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Displays the story
+while read line
+do
+    echo "The user $(echo "$line" | cut -d ":" -f1) is part of the $(echo "$line" | cut -d ":" -f4) gang, lives in $(echo "$line" | cut -d ":" -f6) and rides $(echo "$line" | cut -d ":" -f7). $(echo "$line" | cut -d ":" -f3)'s place is protected by the passcode $(echo "$line" | cut -d ":" -f2), more info about the user here: $(echo "$line" | cut -d ":" -f5)"
+done < /etc/passwd

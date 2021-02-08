@@ -5,4 +5,5 @@ b=10
 while [ "$x" -lt "$b" ]
 do
   echo "To infinity and beyond"
+  sleep 2
 done

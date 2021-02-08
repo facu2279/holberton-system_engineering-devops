@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Show all process
+ps aux -H | grep bash

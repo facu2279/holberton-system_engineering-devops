@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Displays indefinitely but show "I am invincible!!!" when receiving a SIGTERM signal
+
+trap "echo 'I am invincible!!!'" SIGTERM
+x=0
+b=10
+while [ "$x" -lt "$b" ]
+do
+  echo "To infinity and beyond"
+  sleep 2
+done

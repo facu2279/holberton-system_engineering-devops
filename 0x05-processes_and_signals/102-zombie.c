@@ -31,7 +31,7 @@ printf("Zombie process created, PID: %d\n", hijo);
 }
 else
 {
-    exit(0);
+exit(0);
 }
 i++;
 }

@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# Bash (init) script 101-manage_my_process that manages manage_my_process
+
+if [[ $1 == "start" ]]
+then
+    ./manage_my_process &
+    echo "manage_my_process started"
+elif [[ $1 == "stop" ]]
+then
+    rm /var/run/my_process.pid
+    echo "manage_my_process stopped"
+    echo "im in !!!!!!!!!!!!!!"
+    pkill -f manage_my_process.pid
+elif [[ $1 == "restart" ]]
+then
+    rm /var/run/my_process.pid
+    ./manage_my_process &
+    echo "manage_my_process restarted"
+    pkill -f manage_my_process.pid
+else
+    echo "Usage: manage_my_process {start|stop|restart}"
+fi

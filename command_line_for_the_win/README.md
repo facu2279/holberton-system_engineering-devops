@@ -1,5 +1,5 @@
 # Command line for the win
-![alt text](https://raw.github.com/facu2279/holberton-system_engineering-devops/blob/master/command_line_for_the_win/imagereadme.png)
+![alt text](https://github.com/facu2279/holberton-system_engineering-devops/blob/master/command_line_for_the_win/imagereadme.png)
 ## Background Context
 CMD CHALLENGE is a pretty cool game challenging you on Bash skills. Everything is done via the command line and the questions are becoming increasingly complicated. It’s a good training to improve your command line skills!
 

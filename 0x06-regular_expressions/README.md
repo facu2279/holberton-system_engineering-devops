@@ -34,6 +34,18 @@ The first line of all your Bash scripts should be exactly #!/usr/bin/env ruby
 
 All your regex must be built for the Oniguruma library
 
+# File Manifest:
+- 0-simply_match_holberton.rb
+- 1-repetition_token_0.rb
+- 2-repetition_token_1.rb
+- 3-repetition_token_2.rb
+- 4-repetition_token_3.rb
+- 5-beginning_and_end.rb
+- 6-phone_number.rb
+- 7-OMG_WHY_ARE_YOU_SHOUTING.rb
+- 100-textme.rb
+- 101-passed_linkedin_regex_challenge.jpg
+
 # Authors
 Made by [Facundo Diaz](https://github.com/facu2279) to Holberton School 2021
 

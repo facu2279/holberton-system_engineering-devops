@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-# Facundo Diaz for Holberton School 2021
+#show listening ports
 netstat -lp

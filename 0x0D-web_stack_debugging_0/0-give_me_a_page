@@ -1,5 +1,3 @@
 !/usr/bin/env bash
-# Made by Facundo Diaz for Holberton School
-
 echo "ServerName localhost" >> /etc/apache2/apache2.conf
 service apache2 restart

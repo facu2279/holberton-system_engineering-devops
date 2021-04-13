@@ -2,8 +2,7 @@
 # Made by Facundo Diaz for Holberton School
 
 sudo apt-get -y update
-sudo apt-get -y upgrade
 sudo apt-get -y install nginx
-sudo sed -i "11i\\\tadd_header X-Served-By $HOSTNAME;" /etc/nginx/nginx.conf
-echo "Holberton School" | sudo tee /usr/share/nginx/html/index.html
-sudo service nginx start
+sudo ufw allow 'Nginx HTTP'
+sudo sed -i "46i\add_header X-Served-By $HOSTNAME ;" /etc/nginx/sites-available/default
+sudo service nginx restart

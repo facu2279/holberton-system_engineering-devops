@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Made by Facundo Diaz for Holberton School 2021
 
-sudo apt-get -y update; sudo apt-get -y install nginx;sudo ufw allow 'Nginx HTTP'
+sudo apt-get -y update; sudo apt-get -y install nginx
+sudo ufw allow 'Nginx HTTP'
 sudo sed -i "46i\add_header X-Served-By $HOSTNAME ;" /etc/nginx/sites-available/default
 sudo service nginx start

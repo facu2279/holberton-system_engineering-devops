@@ -1,6 +1,5 @@
-# Firewall
-apt-get -y update
-apt-get install -y ufw
+# Firewall - Made by Facundo Diaz for Holberton School 2021
+sudo apt-get install ufw
 sudo ufw default deny incoming
 sudo ufw default allow outgoing
 sudo ufw allow 22/tcp

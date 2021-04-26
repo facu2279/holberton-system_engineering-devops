@@ -44,6 +44,7 @@ Be very careful with firewall rules! For instance, if you ever deny port 22/TCP 
 <br><br>
 <p align="center"><img src="https://github.com/facu2279/holberton-system_engineering-devops/blob/master/0x13-firewall/tutorial.png"/></p>
 <br>
+
 # Authors
 Made by [Facundo Diaz](https://github.com/facu2279) to Holberton School 2021
 

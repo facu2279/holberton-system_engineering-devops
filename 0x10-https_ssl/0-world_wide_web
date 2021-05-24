@@ -1,3 +1,24 @@
-1
-2
-3
+#!/usr/bin/env bash
+# Made by Facundo Diaz for Holbertom School 2021
+sub (){
+    SUBDOMAIN="$2"
+    ALL="$2.$1"
+    DOMAIN="$1"
+    LINE=$(dig "$ALL" | grep "$DOMAIN" | tail -1)
+    RECORD=$(echo "$LINE" | awk '{print $4}')
+    DESTINATION=$(echo "$LINE" | awk '{print $5}')
+    echo The subdomain "$SUBDOMAIN" is a "$RECORD" record and points to "$DESTINATION"
+}
+
+if [[ -z "$2" ]]
+then   
+    SUB="www lb-01 web-01 web-02"
+    for i in $SUB;
+    do
+	sub "$1" "$i"
+    done
+else
+    sub "$1" "$2"
+fi
+
+exit 0
